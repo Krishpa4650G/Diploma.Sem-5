@@ -13,13 +13,13 @@ class _p1State extends State<p1> {
   Widget build(BuildContext context) {
     return DefaultTabController(
         initialIndex: 1,
-        length: 2,
+        length: 3,
         child: Scaffold(
           appBar: AppBar(
             title: Text('Tab Bar Demo'),
             bottom: TabBar(
-                labelColor: Colors.red,
-                unselectedLabelColor: Colors.yellow,
+                labelColor: Colors.blue,
+                unselectedLabelColor: Colors.black,
                 tabs: [
                   Tab(
                     child: Text('Home'),
@@ -28,6 +28,10 @@ class _p1State extends State<p1> {
                   Tab(
                     child: Text('About'),
                     icon: Icon(Icons.info),
+                  ),
+                  Tab(
+                    child: Text('Contact Us'),
+                    icon: Icon(Icons.contact_page),
                   )
                 ]
             ),
@@ -38,6 +42,9 @@ class _p1State extends State<p1> {
             ),
             Container(
               child: Center(child: Text('About page', style: TextStyle(fontSize: 30))),
+            ),
+            Container(
+              child: Center(child: Text('Contact Us page', style: TextStyle(fontSize: 30))),
             )
           ]),
         )

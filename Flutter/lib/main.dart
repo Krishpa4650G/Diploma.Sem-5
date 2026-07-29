@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:krish_flutter/lab11/p2.dart';
+import 'package:krish_flutter/lab15/p1.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: p2(),
+      home: p1(),
     );
   }
 }
