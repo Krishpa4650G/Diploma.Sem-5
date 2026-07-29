@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:krish_flutter/lab15/p1.dart';
+import 'lab15/p1.dart';
 void main() {
   runApp(const MyApp());
 }
