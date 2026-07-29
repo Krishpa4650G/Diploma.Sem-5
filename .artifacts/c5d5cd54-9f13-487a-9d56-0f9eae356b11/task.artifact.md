@@ -1,3 +1,0 @@
-- [x] Move `lib/` directory to `Flutter/` subfolder using Git
-- [x] Verify the move and check Git status
-- [x] Finalize staging and create walkthrough
